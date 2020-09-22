@@ -1,27 +1,109 @@
 .titleContainer {
-  background-color: #E4F9F5;
+  background-color: #cbeaed;
   position: relative;
   margin: 0;
   padding-top: 100px;
 }
 
 h1 {
-  margin: 0;
+  margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  color:  #66BFBF;
 }
 
-h2 {font-family: 'Montserrat', sans-serif;}
+h2 {font-family: 'Montserrat', sans-serif;
+font-size: 2rem;
+color: orange;
 
-h3 {font-family: 'Montserrat', sans-serif;}
+}
+
+h3 {font-family: 'Montserrat', sans-serif;
+font-size: 1.5rem;
+color:  #66BFBF;
+}
 
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
+hr{
+  border-radius: 5px;
+  border-top: 5px dotted grey;
+  max-width: 15rem;
+  margin: 100px auto 100px auto;
+}
+
+a{
+  color: orange;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+  font-size: 1.5em;
+}
+
+.copywrite{
+  color: #eaf6f6;
+  font-size: 0.75em;
+  padding: 20px 0;
+}
+
+.bottom-container{
+  background-color: #cbeaed;
+  margin: auto;
+}
+
+.contact-me{
+margin: 50px auto 100px auto;
+}
+
+.inside-footer{
+  padding: 20px;
+}
+
+.contact-me-para{
+  margin: 40px auto 60px auto;
+}
+
+.footer-link1{
+  padding-right: 10px;
+}
+
+.hello-para{
+  margin: auto 25% auto 25%;
+  line-height: 2;
+}
+
+.underHeading{
+  font-size: 2.5rem;
+  margin-top: 10px;
+  color:  #66BFBF;
+  font-weight: normal;
+}
+
+.imgSkillz{
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+}
+
+.imgSkillz-2{
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+}
+
 .my-pic{
   height: 200px;
-  width: 150px;
+  width: 175px;
+  margin: 150px auto 50px auto;
+}
+
+.myNameInTitle{
+  color: orange;
 }
 
 .topCloud {
@@ -53,15 +135,44 @@ body {
   top: 0;
 }
 
-.bottomContainer {
-  background-color: green;
-  width: 200px;
-  height: 200px;
+.bottom-container {
+  background-color: #66BFBF;
   position: relative;
-  top: 200px;
-  left: 200px;
+  padding: 50px 0 20px;
 }
 
 .Pro {
   text-decoration: underline;
+  color: orange;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px white;
+	background:linear-gradient(to bottom, #66BFBF 5%, #66BFBF 100%);
+	background-color:#11cdd4;
+	border-radius:10px;
+	border:1px solid #11999e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #11999e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11cdd4 5%, #11cdd4 100%);
+	background-color:#11cdd4;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
